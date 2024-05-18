@@ -27,23 +27,9 @@ const formatArrayStrings = (stringArr,modifiedNums) => {
     console.log(modifiedStringArr);
 }
 
-formatArrayStrings(["hello", "kitty", "world", "port"], [2, 3, 5, 7]);
+formatArrayStrings(["hello", "samurai", "world", "port"], [2, 3, 5, 7]);
 
-
-
-
-
-
-
-const modifiedNums = numbers.map((number) => {
-    if(number % 2 === 0){
-        return number * number;
-    }
-    else{
-        return Math.pow(number,3)
-    }
-})
-
-//console.log(modifiedNums);
+module.exports = {modifiedStringArr};
+//exported in order to use in 'userInfo.js'
 
 
