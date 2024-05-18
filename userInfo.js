@@ -1,13 +1,15 @@
 
 const createUserProfiles = (names,modifiedStringArr) => {
     return names.map((name,index) => {
-        return
+        return(
             {
                 originalName: name,
                 modifiedName: modifiedStringArr[index],
                 id: index + 1
             }
-        ;
+        )
+            
+        
     })
 }
 
